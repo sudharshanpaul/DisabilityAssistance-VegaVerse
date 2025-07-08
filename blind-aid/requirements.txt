@@ -1,1 +1,7 @@
 yolov5
+numpy
+pandas
+scikit-learn
+tensorflow
+torch
+gttp

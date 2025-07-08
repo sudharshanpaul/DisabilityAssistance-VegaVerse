@@ -42,10 +42,10 @@ def speak(text):
 # Start webcam
 cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 if not cap.isOpened():
-    print("❌ Camera could not be opened.")
+    print("Camera could not be opened.")
     exit()
 
-print("✅ Camera started. Press 'q' to quit.")
+print("Camera started. Press 'q' to quit.")
 
 while True:
     ret, frame = cap.read()
